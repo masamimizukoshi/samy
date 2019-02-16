@@ -1,10 +1,22 @@
+
 <!DOCTYPE html>
 <html lang="ja">
-	<head>
-		<meta charset="UTF-8">
-		<title>HELLO</title>
-	</head>
-	<body>
-		これは簡単なHTMLファイル
-	</body>
+<head>
+    <meta charset="utf-8">
+    <title>slackdemo</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="all" />
+</head>
+<body>
+<div id="form">
+    <p class="form-title">受注システム</p>
+    <form action="post">
+        <p>アカウント名</p>
+        <p class="mail"><input type="email" name="mail" /></p>
+        <p>パスワード</p>
+        <p class="pass"><input type="password" name="pass" /></p>
+        <p class="check"><input type="checkbox" name="checkbox" />パスワードを保存</p>
+        <p class="submit"><input type="submit" value="ログイン" /></p>
+    </form>
+</div>
+</body>
 </html>
